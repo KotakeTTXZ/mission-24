@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HXD的个人简历</title>
+  <link rel="stylesheet" href="./loading.css">
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <script src="//at.alicdn.com/t/font_603863_d4go7k77kzftuik9.js"></script>
+  <style type="text/css">
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="welcome_loading" class="welcome_loading active">
+      <div class="loading"></div> 
+  </div>
+  <div id="topNavBar" class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+      <a class="logo" href="#" alt="logo">
+        <span class="rs">RS</span>
+        <span class="card">card</span>
+      </a>
+      <nav class="menu">
+        <ul class="clearfix">
+          <li>
+            <a href="#siteAbout">关于</a>
+          </li>
+          <li>
+            <a href="#siteSkill">技能</a>
+          </li>
+          <li class="menuTigger">
+            <a href="#siteWork">作品</a>
+              <ul class="submenu">
+                <li>作品1</li>
+                <li>作品2</li>
+                <li>作品3</li>
+              </ul>                
+          </li>
+          <li class="menuTigger">
+            <a href="#">博客</a>
+            <ul class="submenu">
+              <li>BLOG1</li>
+              <li>BLOG2</li>
+              <li>BLOG3</li>
+            </ul>     
+          </li>
+          <li>
+            <a href="#">日历</a>
+          </li>
+          <li>
+            <a href="#">联系方式</a>
+          </li>
+          <li>
+            <a href="#">其他</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="mask"></div>
+  </div>
+  <main style="margin-top:-350px;">
+
+
+    <div class="card" id="siteAbout">
+      <div class="pictureAndText clearfix">
+
+        <div class="picture">
+          <img src="http://toacg.qiniudn.com/18-3-25/22397019.jpg" alt="头像">
+        </div>
+
+        <div class="text">
+          <span class="welcome">Hello
+            <span class="triagle"></span>
+          </span>
+          <h1>HXD</h1>
+          <p>前端开发工程师</p>
+          <hr>
+          <dl>
+            <dt>年龄</dt>
+            <dd>24</dd>
+            <dt>所在城市</dt>
+            <dd>ZJ</dd>
+            <dt>邮箱</dt>
+            <dd>ttxz@vip.qq.com</dd>
+            <dt>手机</dt>
+            <dd>13700000000</dd>
+          </dl>
+        </div>
+      </div>
+
+      <footer class="media">
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-mail"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-dianhua"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-google0"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weibomw"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weixinmw"></use>
+          </svg>
+        </a>
+      </footer>
+    </div>
+    <div class="downloadpdf">
+      <a class="button" href="index.html" download>下载 PDF 简历</a>
+    </div>
+    <div class="jianjie">
+      <p>
+        HXD， 菜鸟前端工程师，前端爱好者。
+        <br> 本人性格热情开朗，待人友好，为人诚实谦虚。
+        <br> 工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有耐心。
+      </p>
+    </div>
+
+  </main>
+
+  <section class="skill" id="siteSkill">
+    <h2>技能</h2>
+    <ol class="clearfix">
+      <li>HTML 5 &amp; CSS 3
+        <div class="line">
+          <div class="line_di" style="width:10%"></div>
+      </li>
+      <li>JavaScript
+        <div class="line">
+          <div class="line_di" style="width:70%"></div>
+      </li>
+      <li>jQuery
+        <div class="line">
+          <div class="line_di" style="width:50%"></div>
+      </li>
+      <li>Vue
+        <div class="line">
+          <div class="line_di" style="width:30%"></div>
+      </li>
+      <li>React
+        <div class="line">
+          <div class="line_di" style="width:90%"></div>
+      </li>
+      <li>HTTP
+        <div class="line">
+          <div class="line_di" style="width:35%"></div>
+      </li>
+    </ol>
+  </section>
+
+
+
+  <section class="zuopin" id="siteWork">
+    <h2>作品集</h2>
+    <nav>
+      <ol class="clearfix">
+        <li id="zp1">所有</li>
+        <li id="zp2">框架</li>
+        <li id="zp3">原生JS&amp;CSS</li>
+      </ol>
+      <div id="tiao" class="tiao"><div class="tiao_di"></div></div>
+      <script>
+      zp1.onclick=function() {
+        tiao.className="tiao state-1"
+      }
+      zp2.onclick=function() {
+        tiao.className="tiao state-2"
+      }
+      zp3.onclick=function() {
+        tiao.className="tiao state-3"
+      }
+      </script>
+    </nav>
+
+    <div class="pic">
+      <div class="big" style="left: 0px;top: 0px;"><img src="./img/1.jpg" alt="作品1"></div>
+      <div class="small" style="left: 645px;top: 0px;"><img src="./img/2.jpg" alt="作品2"></div>
+      <div class="small" style="left: 645px;top: 312px;"><img src="./img/3.jpg" alt="作品3"></div>
+    </div>
+
+  </section>
+
+  <script>
+    setTimeout(function(){
+      welcome_loading.classList.remove("active");
+    },1000)
+    window.onscroll=function(xxx){
+      if(window.scrollY>=79){
+        topNavBar.classList.add("active");
+      }else{
+        topNavBar.classList.remove("active");
+      }
+    }
+
+let litags=document.querySelectorAll('nav.menu>ul>li')
+for(let i=0;i<litags.length;i++){
+  litags[i].onmouseenter=function(xxxx){
+    xxxx.currentTarget.classList.add("active");
+  }
+  litags[i].onmouseleave=function(xxxx){
+    xxxx.currentTarget.classList.remove("active");
+  }
+}
+
+let atags=document.querySelectorAll("nav.menu >ul >li >a")
+ for(let i=0;i<atags.length;i++){
+   atags[i].onclick=function(xxx){
+     xxx.preventDefault();
+
+     var 导航按钮连接的id=xxx.currentTarget.getAttribute("href");
+     var 连接id的元素=document.querySelector(导航按钮连接的id);
+     var 当前滚动条高度=window.scrollY;
+     var 元素距顶部高度=连接id的元素.offsetTop;
+
+     var 差=元素距顶部高度-当前滚动条高度-90;
+     var 动多少=差/30;
+     var i=0;
+     var 缓冲计时= setInterval((xxx)=>{
+        i=i+1;
+       window.scrollTo(0,当前滚动条高度+动多少*i);
+       if(i===30){
+        window.clearInterval(缓冲计时);
+       }
+     },30);
+  }
+ }
+ 
+  </script>
+</body>
+
+</html>
